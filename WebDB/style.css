@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.ui-page,  .ui-page-active, .ui-overlay-a, .ui-mobile-viewport
+{
+    background: transparent !important;
+}
+
+body, .ui-overlay-a
+{
+    background: url(images/background.png) !important;
+    background-repeat:y-repeat !important;
+    background-position:center bottom !important;
+    background-attachment:scroll !important;
+    background-size:100% auto !important;
+}
+#li_NavBar {
+    width: 20% !important;  /* 12.5% for 8 tabs wide */
+    clear: none !important;  /* Prevent line break caused by ui-block-a */
+}
+#box_preview{
+	width:100%;
+	margin-left:10%;
+}
+#box_preview #box{
+	postion:relation;
+	width:20%;
+	display:inline-block;
+	
+}
+#box_preview #box #details{
+	height:100px;
+	width:76%;
+	height:auto;
+	word-wrap: break-word;
+	 border-style: double;
+    border-width: thick;
+	background-color:#DCDCDC;
+	border-color:#CFCFCF;
+}
